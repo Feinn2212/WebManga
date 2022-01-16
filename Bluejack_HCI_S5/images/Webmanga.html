@@ -1,0 +1,104 @@
+<!DOCTYPE html>
+<!-- saved from url=(0027)http://127.0.0.1:5500/html/ -->
+<html><head><meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+    
+    <title>Webmanga
+    </title>
+    
+    <script src="./Webmanga_files/jquery-3.5.1.js.download" integrity="sha256-QWo7LDvxbWT2tbbQ97B53yJnYU3WhH/C8ycbRAkjPDc=" crossorigin="anonymous"></script>
+  <link rel="stylesheet" href="./Webmanga_files/stylesheet.css"></head>
+  <body>
+    <div class="header-top-wrapper">
+      <header>
+        <div class="container">
+          <div class="header-left">
+            <a>logo di sini</a>
+            <!-- <img class="logo" src="https://prog-8.com/images/html/advanced/main_logo.png"> -->
+          </div>
+        <nav class="dropdown">
+            <li>
+              <a>Menu</a>
+            </li>
+            <div class="dropdown-content">
+              <a href="http://127.0.0.1:5500/html/">HTML</a>
+              <a href="http://127.0.0.1:5500/css/">CSS</a>
+              <a href="http://127.0.0.1:5500/js/">JavaScript</a>
+              <a href="http://127.0.0.1:5500/python/">Python</a>
+            </div>
+        </nav>
+      </div></header>
+      <div class="top-wrapper">
+        <div class="container">
+          <h1>All the manga you will ever need.</h1>
+          <h1>One Website.</h1>
+          <p>lorem ipsum</p>
+          <p>lorem ipsum</p>
+          <div class="btn-wrapper">
+            <a href="http://127.0.0.1:5500/html/#" class="btn signup">Sign up with Email</a>
+          </div>
+        </div>
+      </div>
+    </div>
+    <div class="latest-release-wrapper">
+        <div class="heading">
+          <h2>Latest Releases</h2>
+        </div>
+        <div class="slider-content">
+          <div class="image-container">
+            <img src="./Webmanga_files/manga-1.jpg">
+          </div>
+          <div class="slider-text">
+            <div class="slider-title">
+              <p>Tensei Shitara Ken Deshita</p>
+            </div>
+            <div class="slider-description">
+              <p>Together with her master, Fran challenges a Phantom Dungeon which appears once every 3 years. At the very depths of this dungeon, they find a mysterious bell. But when they cut the bell, an unknown light envelops them both…
+                The official spin-off series featuring both Fran and her master crossing into different worlds begin!!!</p>
+            </div>
+          </div>
+        </div>
+    </div>
+    <div class="message-wrapper">
+
+    </div>
+    <footer>
+    </footer>
+  <!-- Code injected by live-server -->
+<script type="text/javascript">
+	// <![CDATA[  <-- For SVG support
+	if ('WebSocket' in window) {
+		(function () {
+			function refreshCSS() {
+				var sheets = [].slice.call(document.getElementsByTagName("link"));
+				var head = document.getElementsByTagName("head")[0];
+				for (var i = 0; i < sheets.length; ++i) {
+					var elem = sheets[i];
+					var parent = elem.parentElement || head;
+					parent.removeChild(elem);
+					var rel = elem.rel;
+					if (elem.href && typeof rel != "string" || rel.length == 0 || rel.toLowerCase() == "stylesheet") {
+						var url = elem.href.replace(/(&|\?)_cacheOverride=\d+/, '');
+						elem.href = url + (url.indexOf('?') >= 0 ? '&' : '?') + '_cacheOverride=' + (new Date().valueOf());
+					}
+					parent.appendChild(elem);
+				}
+			}
+			var protocol = window.location.protocol === 'http:' ? 'ws://' : 'wss://';
+			var address = protocol + window.location.host + window.location.pathname + '/ws';
+			var socket = new WebSocket(address);
+			socket.onmessage = function (msg) {
+				if (msg.data == 'reload') window.location.reload();
+				else if (msg.data == 'refreshcss') refreshCSS();
+			};
+			if (sessionStorage && !sessionStorage.getItem('IsThisFirstTime_Log_From_LiveServer')) {
+				console.log('Live reload enabled.');
+				sessionStorage.setItem('IsThisFirstTime_Log_From_LiveServer', true);
+			}
+		})();
+	}
+	else {
+		console.error('Upgrade your browser. This Browser is NOT supported WebSocket for Live-Reloading.');
+	}
+	// ]]>
+</script>
+</body></html>
