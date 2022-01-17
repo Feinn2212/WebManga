@@ -1,7 +1,7 @@
 body {
     margin: 0;
     font-family: "Montserrat", sans-serif;
-    background-color: #193d77;
+    background: linear-gradient(#193498, #1597E5);
   }
 
   
@@ -10,7 +10,7 @@ body {
   }
 
 .header-top-wrapper{
-    background: linear-gradient(#142d54, #3a61a1);
+    background-color:#193498;
     background-size: cover;
     width: 100%;
     height: auto;
@@ -113,7 +113,7 @@ footer{
 
 .footer-content-left{
   margin : auto;
-  background-color: #142d54;
+  background-color: #193498;
   height: 10vh;
   width: auto;
   line-height: 10vh;

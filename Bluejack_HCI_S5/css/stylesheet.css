@@ -20,10 +20,6 @@ a {
   text-decoration: none;
 }
 
-.main {
-  min-height: 80vh;
-}
-
 .container {
   width: auto;
   height: 300px;

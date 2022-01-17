@@ -7,6 +7,86 @@ body{
     box-sizing: border-box;
 }
 
+.header-top-wrapper{
+  background: linear-gradient(#14233b, #3a61a1);
+  background-size: cover;
+  width: 100%;
+  height: auto;
+}
+
+
+.container {
+  width: auto;
+  height: 300px;
+  padding: 0 15px;
+  margin: 0 auto;
+  
+}
+
+.header-content-container {
+  background: linear-gradient(rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.7));
+  background-size: cover;
+}
+
+.dropdown {
+  float: right;
+  position: relative;
+}
+
+.dropdown li {
+  line-height: 65px;
+  padding-left: 25px;
+  padding-right: 25px;
+  color: white;
+  display: block;
+}
+
+.dropdown-content {
+  display: none;
+  position: absolute;
+  right: 0;
+  background-color: #f9f9f9;
+  box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+  z-index: 1;
+}
+
+.dropdown-content a {
+  color: black;
+  padding: 12px 16px;
+  text-decoration: none;
+  display: block;
+}
+
+.dropdown-content a:hover {background-color: #f1f1f1;}
+
+.dropdown:hover .dropdown-content {
+  display: block;
+}
+
+header{
+  height: 65px;
+  width: 100%;
+}
+
+.header-left {
+  float: left;
+}
+
+.header-left a{
+  color: white;
+}
+
+.header-right{
+  float:right;
+}
+
+.logo{
+  width: auto;
+  height: 60px;
+  margin-top: 5px;
+  padding-left: 20px;
+}
+
 .content-wrapper{
   overflow: auto;
 }
@@ -15,6 +95,8 @@ body{
     width: 100%;
     height: auto;
     text-align: center;
+    padding-top: 5vh;
+    padding-bottom: 5vh;
   }
 
 
@@ -51,10 +133,12 @@ body{
     }
    
     .manga-title{
-        margin-left: 20%;
+      text-align: center;
+      margin-right: 50vw;
         font-size: 20px;
     } 
 }
+ 
  
 
   @media only screen and (min-width: 1280px) {
@@ -110,3 +194,21 @@ body{
         padding-left: 30px;
     }
   }
+
+  footer{
+    overflow: none;
+    text-align: center;
+    padding-top : 5vh;
+}
+
+.footer-content-left{
+  margin : auto;
+  background-color: #142d54;
+  height: 10vh;
+  width: auto;
+  line-height: 10vh;
+}
+
+.footer-content-left p{
+  color: white;
+}
