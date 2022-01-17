@@ -6,9 +6,18 @@ body{
 *{
     box-sizing: border-box;
 }
+
+.content-wrapper{
+  height : fit-content;
+}
+.row{
+  padding-bottom: 290px;
+  height : fit-content;
+}
+
 .update{
     padding-left: 10%;
-    padding-bottom: 60px;
+    padding-bottom: 30px;
 }
 
 [class*="col-"] {
@@ -23,8 +32,8 @@ body{
   
   .col-description-container {
     width: 100%;
-    text-align: center;
-    padding-left: 20%;
+    text-align: left;
+    padding-left: 20px;
     padding-right: 20%;
     font-size: 20px;
   }
@@ -39,8 +48,9 @@ body{
     .col-image-container img{
       max-height: 100%;
       height: 100%;
-      padding-left: 150px;
+      padding-left: 10%;
       margin: 0 0 0 0;
+      margin-left: 20%;
       width: auto;
     }
     
@@ -50,7 +60,7 @@ body{
       float: left;
       text-align: left;
       padding-top: 0px;
-      padding-right: 300px;
+      padding-right: 0px;
       padding-left: 0px;
       font-size: 32px;
     }
