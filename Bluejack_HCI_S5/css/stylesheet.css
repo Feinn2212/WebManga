@@ -1,6 +1,7 @@
 body {
   margin: 0;
   font-family: "Montserrat", sans-serif;
+  background-color: rgb(240, 240, 240);
 }
 
 *{
@@ -284,26 +285,30 @@ header{
 }
 
 footer{
-  height: 10vh;
+    overflow: none;
+    text-align: center;
+    padding-top : 5vh;
 }
 
 .footer-content-left{
-  height: auto;
+  margin : auto;
+  background-color: #142d54;
+  height: 10vh;
   width: auto;
-  float: left;
-  text-align: center;
-  padding-left: 40px;
-  padding-top: 30px;
+  line-height: 10vh;
 }
 
-.footer-content-right{
+.footer-content-left p{
+  color: white;
+}
+/* .footer-content-right{
   height: auto;
   width: auto;
   float: right;
   text-align: center;
   padding-right: 40px;
   padding-top: 30px;
-}
+} */
 
 .logo{
   width: auto;
