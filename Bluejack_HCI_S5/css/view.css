@@ -1,0 +1,23 @@
+body{
+    margin : 0;
+    font-family: "Montserrat", sans-serif;
+}
+
+*{
+    box-sizing: border-box;
+}
+.update{
+    padding-left: 5%;
+}
+
+.manga{
+  max-height: 40%;
+}
+
+.manga-text{
+    float: left;
+}
+
+.manga img{
+    height: 50%;
+}
