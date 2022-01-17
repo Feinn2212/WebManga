@@ -6,3 +6,31 @@ body{
 *{
     box-sizing: border-box;
 }
+
+.content-box{
+    overflow: none;
+}
+
+.content{
+    height: auto;
+    width: 100%;
+    text-align: left;
+    background-color: red;
+}
+
+.header-name{
+    padding-top: 15px;
+}
+
+.content p {
+    padding-left: 10px;
+}
+
+.content img{
+    max-height: 300px;
+   padding-left: 10px;
+}
+
+/* .comment-contents p{
+    float: left;
+} */
