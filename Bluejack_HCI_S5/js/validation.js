@@ -7,6 +7,7 @@ const form = document.getElementById('form');
 const errorElement = document.getElementById('error')
 
 form.addEventListener('submit', (e) => {
+
     let messages = [];
     if(password.value.length <= 5){
         alert('Password must be longer than 5 characters');
@@ -14,6 +15,7 @@ form.addEventListener('submit', (e) => {
 
     if(password.value.length >= 20){
         alert('Password must be less than 20 characters');
+
     }
 
     if(password.value != passwordConfirm.value){
@@ -34,7 +36,7 @@ form.addEventListener('submit', (e) => {
         alert("Phone number must be longer than 7 characters");
     }
     else{
-        
+
     }
 
     if(messages.length > 0){
