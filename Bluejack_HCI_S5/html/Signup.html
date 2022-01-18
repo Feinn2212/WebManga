@@ -5,7 +5,7 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Login/Signup</title>
-    <link rel="stylesheet" href="../css/login.css">
+    <link rel="stylesheet" href="../css/signup.css">
     
 </head>
 <body>
@@ -19,8 +19,8 @@
             <div class="dropdown-content">
                 <a href="../html/index.html">HOME</a>
                 <a href="../html/viewWeb.html">Read Manga</a>
-                <a href="../html/login.html">Login</a>
                 <a href="../html/community.html">Community</a>
+                <a href="../html/Signup.html">Sign Up</a>
             </div>
         </nav>
       </header>
@@ -30,7 +30,7 @@
     <div class = "center">
         <h1 class="login">Sign Up</h1>
         <div id="error"></div>
-        <form id="form" action="../html/Signup.html" method="GET">
+        <form id="form" action="#" method="GET">
             <!-- email -->
             <div class = "txt_field">
                 <input id="email" name="email" type="email" required>
@@ -46,18 +46,16 @@
                 <label for="passConfirm">Password Confirmation</label>
             </div>
             <div class = "txt_field">
-                <input id="tel" name="tel" type="tel" onkeypress="return onlyNumberKey(event)" required>
-                <label for="tel">Phone Number</label>
+                <input id="number" name="number" type="number" required>
+                <label for="number">Phone Number</label>
             </div>
             <div class = "checkbox">
                 <input type="checkbox" required>
                 <label>I Agree To Terms And Conditions</label>
             </div>
-            <input type="submit">
 
-            <div class="signup_link">
-                Already Have an Account? <a href="../html/login.html">Login</a>
-            </div>
+            <input type="submit">
+            
         </form>
     </div>
     <script src="../js/validation.js"></script>

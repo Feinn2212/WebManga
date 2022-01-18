@@ -2,7 +2,7 @@
 const email = document.getElementById('email');
 const password = document.getElementById('password');
 const passwordConfirm = document.getElementById('passwordConfirm');
-const tel = document.getElementById('tel');
+const number = document.getElementById('number');
 const form = document.getElementById('form');
 const errorElement = document.getElementById('error')
 
@@ -22,21 +22,8 @@ form.addEventListener('submit', (e) => {
         alert("Password does not match!");
     }
 
-
-    function onlyNumberKey(evt) {
-          
-        // Only ASCII character in that range allowed
-        var ASCIICode = (evt.which) ? evt.which : evt.keyCode
-        if (ASCIICode > 31 && (ASCIICode < 48 || ASCIICode > 57))
-            return false;
-        return true;
-    }
-
-    if(tel.value.length <= 7){
-        alert("Phone number must be longer than 7 characters");
-    }
-    else{
-
+    if(number.value.length <= 10  ||  number.value.length >= 13){
+        alert("Phone number must be between 11 and 13 characters");
     }
 
     if(messages.length > 0){
