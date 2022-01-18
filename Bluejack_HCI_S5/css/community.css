@@ -2,7 +2,7 @@ body{
     margin : 0;
     font-family: "Montserrat", sans-serif;
     color: white;
-    background-color: grey;
+    background-color: #14233b;
 }
 
 *{
@@ -110,4 +110,18 @@ footer{
     text-align: center;
 }
 
+.footer-content-left p{
+    margin : 0;
+}
+.footer-content-left{
+  margin : auto;
+  background-color: #142d54;
+  height: 10vh;
+  width: auto;
+  line-height: 10vh;
+}
+
+.footer-content-left p{
+  color: white;
+}
 
