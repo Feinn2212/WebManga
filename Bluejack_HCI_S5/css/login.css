@@ -2,7 +2,7 @@ body{
     margin : 0;
     padding : 0;
     font-family: Montserrat, sans-serif;
-    background : radial-gradient(circle,#e5711b, #e5711b, #9c3f0c,#7f0a09);
+    background : radial-gradient(circle,#142d54, #3a61a1);
 }
 
 .header-top-wrapper{
@@ -75,7 +75,7 @@ header{
 }
 
 .login{
-    color:#e5711b;
+    color:#142d54;
 }
 
 .center{
@@ -131,13 +131,13 @@ form .txt_field{
     left: 0;
     width: 100%;
     height: 2px;
-    background: #9c3f0c;
+    background: #142d54;
 }
 
 .txt_field input:focus ~ label,
 .txt_field input:valid ~ label{
     top: -5px;
-    color : #9c3f0c;
+    color : #142d54;
 }
 
 .txt_field input:focus ~ span::before,
@@ -159,7 +159,7 @@ input[type="submit"]{
     width: 100%;
     height: 50px;
     border: 1px solud;
-    background: #e5711b;
+    background: #142d54;
     border-radius : 25px;
     font-size: 18px;
     color: #e9f4fb;
@@ -169,7 +169,7 @@ input[type="submit"]{
 
 }
 input[type="submit"]:hover{
-    border-color: #7f0a09;
+    border-color: #142d54;
     transition: .5s;
 }
 .signup_link{
@@ -179,7 +179,7 @@ input[type="submit"]:hover{
     color: #666666;
 }
 .signup_link a{
-    color: blue;
+    color: #142d54;
     text-decoration: none;
 }
 .signup_link a:hover{
@@ -241,13 +241,13 @@ input[type="submit"]:hover{
         left: 0;
         width: 100%;
         height: 2px;
-        background: #9c3f0c;
+        background: #142d54;
     }
     
     .txt_field input:focus ~ label,
     .txt_field input:valid ~ label{
         top: -5px;
-        color : #9c3f0c;
+        color : #142d54;
     }
     
     .txt_field input:focus ~ span::before,
@@ -269,7 +269,7 @@ input[type="submit"]:hover{
         width: 100%;
         height: 50px;
         border: 1px solud;
-        background: #e5711b;
+        background: #142d54;
         border-radius : 25px;
         font-size: 18px;
         color: #e9f4fb;
@@ -279,7 +279,7 @@ input[type="submit"]:hover{
     
     }
     input[type="submit"]:hover{
-        border-color: #7f0a09;
+        border-color: #3a61a1;
         transition: .5s;
     }
     .signup_link{
@@ -289,7 +289,7 @@ input[type="submit"]:hover{
         color: #666666;
     }
     .signup_link a{
-        color: blue;
+        color: #3a61a1;
         text-decoration: none;
     }
     .signup_link a:hover{
